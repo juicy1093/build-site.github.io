@@ -541,4 +541,85 @@ header {
         }
 }
 
+.location_on {
+        color: var(--dark-color);
+}
 
+.contacts {
+        margin-top: 100px;
+}
+
+.contacts-h2 {
+        color: var(--dark-color);
+        text-align: center;
+        margin-bottom: 60px;
+        font-size: 35px;
+}
+
+.contacts__grid {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 30px;
+}
+
+.contacts__grid-item {
+        text-align: center;
+        max-width: 255px;
+        max-height: 191px;
+        margin-right: 70px;
+}
+
+.contacts-img {
+        margin: 0 auto;
+}
+
+.contacts-h3 {
+        color: var(--gray-color);
+        margin: 25px 0;
+}
+
+.contacts-email {
+        color: var(--accent-color);
+}
+
+.text-h3 {
+        text-transform: uppercase;
+}
+
+@media screen and (max-width: 1280px) {
+        .contacts__grid {
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+        }
+        .contacts__grid-item {
+                margin: 0 auto;
+        }
+}
+
+@media screen and (max-width: 768px) {
+        .contacts__grid {
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        }
+}
+
+.footer {
+        margin-top: 176px;
+        background-color: var(--dark-color);
+}
+
+.footer__flex {
+        display: flex;
+        justify-content: space-between;
+}
+
+.text-footer {
+        color: var(--white-color);
+        padding: 15px 0;
+}
+
+@media screen and (max-width: 1280px) {
+        .text-footer {
+                padding: 15px;
+        }
+}
