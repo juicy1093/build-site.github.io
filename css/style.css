@@ -565,7 +565,7 @@ header {
         grid-template-columns: repeat(4,1fr);
         gap: 30px;
 }
-
+/* Тамада */
 .contacts__grid-item {
         text-align: center;
         max-width: 255px;
