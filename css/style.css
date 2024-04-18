@@ -127,6 +127,10 @@ header {
                 font-size: 46px;
                 line-height: 64px;
         }
+        .header__title {
+                padding-left: 15px;
+                padding-right: 15px;
+        }
 }
 
 .h4 {
@@ -434,7 +438,7 @@ header {
         max-width: 730px;
 }
 
-.question-h3.close::before, .question-h3.open::before {
+ /* .question-h3.close::before, .question-h3.open::before {
         content: "";
         display: inline-block;
         width: 15px;
@@ -444,7 +448,7 @@ header {
         background-position: center;
         margin-right: 15px;
 }
-
+*/
 .question-h3.open::before {
         transform: rotate(90deg);
 }
@@ -578,8 +582,15 @@ header {
         margin: 25px 0;
 }
 
+.contacts-h3 a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: inherit;
+        color: var(--dark-color);
+}
+
 .contacts-email {
-        color: var(--accent-color);
+        color: var(--dark-color);
 }
 
 .text-h3 {
